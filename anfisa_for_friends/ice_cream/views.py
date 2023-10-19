@@ -3,24 +3,21 @@ from django.shortcuts import render
 ice_cream_catalog = [
     {
         'id': 0,
-        'png': 'img/0.png',
-        'url': 'ice_cream:ice_cream_detail 0',
+        'png': 'img/plombir.png',
         'title': 'Классический пломбир',
         'description': 'Настоящее мороженое, для истинных ценителей вкуса. '
                        'Если на столе появляется пломбир — это не надолго.',
     },
     {
         'id': 1,
-        'png': 'img/1.png',
-        'url':  'ice_cream:ice_cream_detail 1 ',
+        'png': 'img/kuz.png',
         'title': 'Мороженое с кузнечиками',
         'description': 'В колумбийском стиле: мороженое '
                        'с добавлением настоящих карамелизованных кузнечиков.',
     },
     {
         'id': 2,
-        'png': 'img/2.png',
-        'url':  'ice_cream:ice_cream_detail 2 ',
+        'png': 'img/chedder.png',
         'title': 'Мороженое со вкусом сыра чеддер',
         'description': 'Вкус настоящего сыра в вафельном стаканчике.',
     },

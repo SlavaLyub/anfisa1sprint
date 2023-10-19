@@ -17,7 +17,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">                      
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <!-- Добавлен класс active -->
+            {% comment %} <!-- Добавлен класс active --> {% endcomment %}
             {% with request.resolver_match.view_name as view_name %}
 
             <a class="nav-link {% if view_name  == 'homepage:index' %}active
